@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style type="text/css" media="all">
+    label , input{
+      margin: 1%;
+      padding: 1%;
+    }
+    h2{
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  
+  <h2>Form</h2>
+  <form action="get" method="get" accept-charset="utf-8">
+    <label for="name">Your Name: </label>
+    <input type="text" name="name" id="name" value="" required />
+    <br>
+    <label for="email">Email: </label>
+    <input type="email" name="email" id="email" value="" required />
+    <br>
+    <label for="mobile_No: "> Mobile No:</label>
+    <input type="number" name="number" id="mo. number" value="" minvalue="10" required="required" />
+    <br>
+    <label for="date">Birthady Date: </label>
+    <input type="date" name="date" id="date" value="" />
+    <br>
+    <label for="favourite color:">favourite color:</label>
+    <input type="color" name="favourite color:" id="favourite color:" value="" />
+    <br>
+    <label for="fav food">fav food</label>
+    <input type="checkbox" name="food" id="food" value="Samosa" />Samosa
+    <input type="checkbox" name="food" id="food" value="wada pav" />wada pav
+    <input type="checkbox" name="food" id="food" value="pav bhaji" />pav bhaji 
+    <br>
+    <label for="password:">password:</label>
+    <input type="password" name="password" id="password" value="" />
+    <br>
+    <input type="submit" name="submit" id="submit" value="Submit Here" />
+  </form>
+</body>
+</html>
